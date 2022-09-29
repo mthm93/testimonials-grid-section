@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    background-color: hsl(210, 46%, 95%);
+}
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img {
+    margin-right: 1rem;
+    float: left;
+    background-color: white;
+    width: 32px;
+    border-radius: 30px;
+    padding: 2px;
+}
+h2 {
+    margin-bottom: 1rem;
+}
+div p {
+    display: flex;
+    width: fit-content;
+}
+p {
+    opacity: 70%;
+    overflow: hidden;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+.daniel-container img, .patrick-container img {
+    background-color: hsl(263, 55%, 52%);
+}
+.daniel-container, .jonathan-container, .patrick-container {
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.jeanette-container, .kira-container {
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.daniel-container {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+}
+.jonathan-container img {
+    color: hsl(0, 0%, 81%);
+}
+.jonathan-container {
+    background-color: hsl(217, 19%, 35%);
+}
+.patrick-container {
+    background-color: hsl(219, 29%, 14%)
+}
+.top-container, .bottom-container, .kira-container {
+    margin: 1rem;
+}
+.top-container, .bottom-container {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.row {
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+}
+.kira-container {
+    max-width: 250px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.verified {
+    opacity: 50%;
+}
+.jonathan-container, .patrick-container {
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .row {
+        margin-top: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-container {
+        flex-direction: column;
+    }
+    .bottom-container {
+        flex-direction: column;
+    }
+    .jonathan-container {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .patrick-container {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .kira-container {
+        margin-top: 0;
+        max-width: fit-content;
+    }
+}
