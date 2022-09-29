@@ -15,11 +15,9 @@
 
 ### Screenshot
 
- - Mobile Preview
-![](design/mobile-design.jpg)
+![Mobile Preview](design/mobile-design.jpg)
 
- - Desktop Preview
-![](design/desktop-design.jpg)
+![Desktop Preview](design/desktop-design.jpg)
 
 ## Meu Processo
 
