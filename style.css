@@ -52,14 +52,14 @@ img, picture, video, canvas, svg {
     color: white;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 5px hsl(0, 0%, 81%);
+    box-shadow: 5px 5px 15px 5px hsl(207, 13%, 87%);
 }
 .jeanette-container, .kira-container {
     background-color: white;
     color: hsl(219, 29%, 14%);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 5px hsl(0, 0%, 81%);
+    box-shadow: 5px 5px 15px 5px hsl(207, 13%, 87%);
 }
 .daniel-container {
     background-color: hsl(263, 55%, 52%);
