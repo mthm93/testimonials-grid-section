@@ -22,6 +22,11 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+main {
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+}
 img {
     margin-right: 1rem;
     float: left;
@@ -85,11 +90,6 @@ img, picture, video, canvas, svg {
 .column {
     flex-direction: column;
 }
-.row {
-    max-width: 1150px;
-    display: flex;
-    flex-direction: row;
-}
 .kira-container {
     max-width: 250px;
     padding: 2rem;
@@ -109,7 +109,7 @@ img, picture, video, canvas, svg {
 }
 
 @media only screen and (max-width: 550px) {
-    .row {
+    main {
         margin-top: auto;
         flex-wrap: wrap;
         flex-direction: column;
